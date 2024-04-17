@@ -1,4 +1,5 @@
 const { defineConfig } = require('cypress')
+const allureWriter = require('@shelex/cypress-allure-plugin/writer')
 
 module.exports = defineConfig({
   chromeWebSecurity: false,
@@ -6,8 +7,8 @@ module.exports = defineConfig({
     baseUrl: 'http://lojaebac.ebaconline.art.br',
     testIsolation: false,
     setupNodeEvents(on, config) {
-      // eslint-disable-next-line no-trailing-spaces
-
+      allureWriter(on, config)
+      return config
     },
     env: {
       hideCredentials: true,

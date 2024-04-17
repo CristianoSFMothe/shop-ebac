@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 17 09:44:10 BRT 2024","Wed Apr 17 09:44:13 BRT 2024","2767","","DADO que esteja na tela de login do Shopping EBAC","","","","E clicar no botão ""Login""",""
+"passed","Wed Apr 17 09:38:16 BRT 2024","Wed Apr 17 09:38:17 BRT 2024","1070","DADO que esteja na tela de login do Shopping EBAC","QUANDO preencher as credenciais validas","","","","ENTÃO deve aparece um modal para preencher os dados do usuário ",""
+"passed","Wed Apr 17 09:44:13 BRT 2024","Wed Apr 17 09:44:13 BRT 2024","74","","DADO que esteja na tela de login do Shopping EBAC","","","","ENTÃO deverá realizar o login com sucesso",""
+"passed","Wed Apr 17 09:44:08 BRT 2024","Wed Apr 17 09:44:10 BRT 2024","1843","","DADO que esteja na tela de login do Shopping EBAC","","","","ENTÃO preencher as credenciais validas",""
