@@ -7,10 +7,12 @@
     "node": "v20.10.0"
   },
   "scripts": {
+    "allure:report": "allure generate allure-results --clean",
+    "allure:open": "allure open",
     "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --env allure=true",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
-    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
-    "report": "npx cypress run --env allure=true && allure generate allure-results --clean"
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix"
   },
   "keywords": [],
   "author": "",
