@@ -1,0 +1,26 @@
+{
+  "name": "shop-ebac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "v20.10.0"
+  },
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
+    "report": "npx cypress run --env allure=true && allure generate allure-results --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress": "^13.7.2",
+    "cypress-plugin-api": "^2.11.1",
+    "cypress-plugin-xhr-toggle": "^1.0.0",
+    "eslint": "^8.43.0",
+    "eslint-plugin-cypress": "^2.13.3"
+  }
+}
