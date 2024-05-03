@@ -225,6 +225,9 @@ npm run allure:report
 npm run allure:open
 ```
 
+![image](https://github.com/CristianoSFMothe/shop-ebac/assets/68359459/6576fade-ea6d-4e26-8d03-534c5595ec18)
+
+
 ### Plugin extra
 
 No meu caso para facilitar a execução dos comando, tenho o seguinte plugin instalado:
@@ -235,4 +238,5 @@ npm i ntl -g
 
 Que abre no terminal a opção para escolher quais `script` quero executar de acordo com a criação dos mesmo.
 
+![image](https://github.com/CristianoSFMothe/shop-ebac/assets/68359459/900586ed-86f2-499b-8820-717a8ebce09a)
 
